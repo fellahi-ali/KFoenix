@@ -20,7 +20,7 @@ repositories {
 dependencies {
     compile(kotlin("stdlib-jdk8"))
     compile("com.jfoenix:jfoenix:8.0.8")
-    compile("no.tornado:tornadofx:1.7.17") {
+    compile("no.tornado:tornadofx:1.7.18") {
         exclude("org.jetbrains.kotlin")
     }
 }
